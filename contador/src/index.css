@@ -18,12 +18,12 @@
 .a {
   font-weight: 500;
   color: #ececf3;
-  background-color: #646cff;
+  background-color: #0bbef5;
   text-decoration: inherit;
 }
 .a:hover {
   color: #080a27;
-  background-color: #dddee7;
+  background-color: #a7dfef;
   
 }
 
@@ -52,7 +52,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #063a49;
 }
 button:focus,
 button:focus-visible {
@@ -69,5 +69,37 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+    box-shadow: 1px 5px 10px gray;
+    
   }
+}
+
+.counter{
+
+  font-size: 200%;
+  font-style: normal;
+
+}
+.heart{
+  position: relative;
+  display: flex;
+  top: 3.4rem;
+  left: 9rem;
+}
+
+
+.Card{
+
+  display: flex;
+  
+  box-shadow: 10px 30px 20px gray;
+  flex-direction: column;
+  max-width: auto;
+  padding: 2rem;
+  background-color: rgb(213, 226, 232);
+  border-radius: 25px;
+  
+  margin-left: 10px;
+  margin: 10px;
+  
 }
